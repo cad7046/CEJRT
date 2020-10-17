@@ -1,0 +1,13 @@
+/*
+* ISTE-240 CEJRT Group Project
+* 10/17/2020
+*/
+
+body {
+    background-image: url("../images/bkg.png");
+}
+
+#logo {
+    margin-left: 1vw;
+    margin-top: 1vh;
+}
