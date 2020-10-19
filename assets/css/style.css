@@ -8,6 +8,45 @@ body {
     margin: 0px;
 }
 
+/*
+* Styling for dropdown menus
+*/
+.dropdown {
+    display: none;
+    background-image: url("../images/bkg.png");
+    color: #840817;
+    position: absolute;
+    padding: 0px;
+    margin-top: 3px;
+    border: 3px solid #333652;
+    left: 0;
+    right: auto;
+}
+
+#outer {
+    border: 5px solid #333652;
+}
+
+/*
+* Dropdown List Item
+*/
+.ddli {
+    display: block;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 3px;
+    padding-right: 8px;
+    border-top: 3px solid #333652;
+}
+
+/*
+* Move numbering next to content
+*/
+ol {
+    list-style-position: inside;
+    padding: 0;
+}
+
 #logo {
     margin-left: 1vw;
     margin-top: 1vh;
@@ -16,23 +55,41 @@ body {
 nav ul {
 	list-style: none;
 	text-align: center;
-	border: 5px solid #333652;
+}
+
+/*
+* Every outer list item for nav
+*/
+.nondrop {
+    display: inline-block;
+    border-right: 5px solid #333652;
+    padding-left: 2.7vw;
+	padding-right: 2.7vw;
+}
+
+/*
+* Outer list item that has a dropdown
+*/
+.dropOuter {
+    color: #840817;
+	font-size: 1.2vw;
+    position: relative;
+    
+    /* Resolve issue with unwanted whitespace */
+	padding-bottom: 1px;
 }
 
 nav ul a li {
-	display: inline;
 	color: #840817;
 	font-size: 1.2vw;
-	padding-left: 2.7vw;
-	padding-right: 2.7vw;
-	border-right: 5px solid #333652;
-
-	/* Resolve issue with unwanted whitespace */
+    
+    /* Resolve issue with unwanted whitespace */
 	padding-bottom: 1px;
 }
 
 nav ul a {
 	text-decoration: none;
+    color: #840817;
 }
 
 #first {
@@ -42,17 +99,20 @@ nav ul a {
 main {
 	text-align: center;
 	border: 4px inset #333652;
-	margin: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+	margin-left: 100px;
+    margin-right: 100px;
 	color: #840817;
 }
 
 footer p {
 	background-color: #333652;
 	text-align: center;
-	font-size: 115%;
+	font-size: 105%;
 	position: absolute;
 	bottom: 0px;
-	margin-bottom: 10px;
+	margin-bottom: 5px;
 	width: 100%;
 	padding-top: 5px;
 	padding-bottom: 5px;

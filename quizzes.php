@@ -8,19 +8,14 @@
 ?>
 
 <main>
-    <h1>CONTENT WILL GO HERE</h1>
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
+    <h1>Quizzes</h1>
+    <ol>
+        <li><a href="PLACEHOLDER">PLACEHOLDER</a></li>
+        <li><a href="PLACEHOLDER">PLACEHOLDER</a></li>
+        <li><a href="PLACEHOLDER">PLACEHOLDER</a></li>
+        <li><a href="PLACEHOLDER">PLACEHOLDER</a></li>
+        <li><a href="PLACEHOLDER">PLACEHOLDER</a></li>
+    </ol>
 </main>
 
 <?php
