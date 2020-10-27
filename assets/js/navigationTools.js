@@ -1,6 +1,9 @@
 function hoverIn(callerElement) {
     if (callerElement.getElementsByClassName('dropdown').length == 0) {
         callerElement.style.backgroundColor = '#333652';
+    } else {
+    	callerElement.style.backgroundColor = '#333652';
+    	callerElement.getElementsByClassName('dropdown')[0].style.backgroundColor = 'transparent';
     }
 }
 
