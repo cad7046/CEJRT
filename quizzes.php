@@ -10,11 +10,11 @@
 <main>
     <h1>Quizzes</h1>
     <ol>
-        <li><a href="PLACEHOLDER">PLACEHOLDER</a></li>
-        <li><a href="PLACEHOLDER">PLACEHOLDER</a></li>
-        <li><a href="PLACEHOLDER">PLACEHOLDER</a></li>
-        <li><a href="PLACEHOLDER">PLACEHOLDER</a></li>
-        <li><a href="PLACEHOLDER">PLACEHOLDER</a></li>
+        <li><a href="#">PLACEHOLDER</a></li>
+        <li><a href="#">PLACEHOLDER</a></li>
+        <li><a href="#">PLACEHOLDER</a></li>
+        <li><a href="#">PLACEHOLDER</a></li>
+        <li><a href="#">PLACEHOLDER</a></li>
     </ol>
 </main>
 
