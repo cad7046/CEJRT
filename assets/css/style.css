@@ -14,7 +14,7 @@ body {
 .dropdown {
     display: none;
     background-image: url("../images/bkg.png");
-    color: #840817;
+    color: #d00817;
     position: absolute;
     padding: 0px;
     margin-top: 3px;
@@ -71,8 +71,9 @@ nav ul {
 * Outer list item that has a dropdown
 */
 .dropOuter {
-    color: #840817;
+    color: #d00817;
 	font-size: 1.2vw;
+	font-family: Arial, Helvetica, sans-serif;
     position: relative;
     
     /* Resolve issue with unwanted whitespace */
@@ -80,16 +81,16 @@ nav ul {
 }
 
 nav ul a li {
-	color: #840817;
+	color: #d00817;
 	font-size: 1.2vw;
-    
+    font-family: Arial, Helvetica, sans-serif;
     /* Resolve issue with unwanted whitespace */
 	padding-bottom: 1px;
 }
 
 nav ul a {
 	text-decoration: none;
-    color: #840817;
+    color: #d00817;
 }
 
 #first {
@@ -98,18 +99,20 @@ nav ul a {
 
 main {
 	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
 	border: 4px inset #333652;
     margin-top: 40px;
     margin-bottom: 40px;
 	margin-left: 100px;
     margin-right: 100px;
-	color: #840817;
+	color: #d00817;
 }
 
-footer p {
+footer p { 
 	background-color: #333652;
 	text-align: center;
 	font-size: 105%;
+	font-family: Arial, Helvetica, sans-serif;
 	position: absolute;
 	bottom: 0px;
 	margin-bottom: 5px;
