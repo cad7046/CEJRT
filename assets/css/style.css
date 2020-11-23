@@ -23,6 +23,15 @@ body {
     right: auto;
 }
 
+.quizans {
+    display: none;
+}
+
+.quizquest {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
 #outer {
     border: 5px solid #333652;
 }
