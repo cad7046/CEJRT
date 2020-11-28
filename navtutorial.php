@@ -17,7 +17,7 @@
     <h2>pwd</h2>
     <p>Now, use the command ls to see directories you can navigate to. </p>
     <h2>ls</h2>
-    <!-- add example image -->
+    <img src="nav_tutorial.jpg" alt="Nav Tutorial" width="500" height="600">
     <p>You should see something like this. </p>
     <p>Now, </p>
     
