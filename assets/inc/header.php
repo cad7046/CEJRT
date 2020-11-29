@@ -10,5 +10,5 @@
     
     <body>
         <header>
-            <img id="logo" src="assets/images/logo.png" alt="Logo" height="100" width="141">
+            <img id="logo" src="assets/images/logocr.png" alt="Logo" height="70" width="260">
         </header>
