@@ -36,19 +36,19 @@
             <label>This is a Multiple Choice Question.</label>
             <br />
 
-            <input type="radio" value="A" name="1">
+            <input type="radio" value="A" name="2">
             <label>A. This is Answer A.</label>
             <br />
 
-            <input type="radio" value="B" name="1">
+            <input type="radio" value="B" name="2">
             <label>B. This is Answer B.</label>
             <br />
 
-            <input type="radio" value="C" name="1">
+            <input type="radio" value="C" name="2">
             <label>C. This is Answer C.</label>
             <br />
 
-            <input type="radio" value="D" name="1">
+            <input type="radio" value="D" name="2">
             <label>D. This is Answer D.</label>
             <br />
         </div>
