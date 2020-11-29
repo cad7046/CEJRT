@@ -34,6 +34,8 @@ body {
 
 #outer {
     border: 5px solid #333652;
+    display: flex;
+    justify-content: center;
 }
 
 /*
@@ -41,11 +43,18 @@ body {
 */
 .ddli {
     display: block;
+    border-top: 3px solid #333652;
+}
+
+.ddli a {
     padding-top: 3px;
     padding-bottom: 3px;
     padding-left: 3px;
     padding-right: 8px;
-    border-top: 3px solid #333652;
+}
+
+.ddli:hover a {
+    background-color: #333652;
 }
 
 /*
@@ -70,10 +79,26 @@ nav ul {
 * Every outer list item for nav
 */
 .nondrop {
-    display: inline-block;
+    display: block;
     border-right: 5px solid #333652;
+    /*padding-left: 2.7vw;
+	padding-right: 2.7vw;*/
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+
+.nondrop > a {
     padding-left: 2.7vw;
-	padding-right: 2.7vw;
+    padding-right: 2.7vw;
+}
+
+.nondrop:hover > a {
+    background-color: #333652;
+}
+
+.dropOuter:hover .dropdown {
+    display: block;
 }
 
 /*
@@ -83,18 +108,17 @@ nav ul {
     color: #d00817;
 	font-size: 1.2vw;
 	font-family: Arial, Helvetica, sans-serif;
-    position: relative;
     
-    /* Resolve issue with unwanted whitespace */
-	padding-bottom: 1px;
+    /* Resolve issue with unwanted whitespace 
+	padding-bottom: 2px;*/
 }
 
-nav ul a li {
+nav ul li a {
 	color: #d00817;
 	font-size: 1.2vw;
     font-family: Arial, Helvetica, sans-serif;
-    /* Resolve issue with unwanted whitespace */
-	padding-bottom: 1px;
+    /* Resolve issue with unwanted whitespace 
+	padding-bottom: 2px;*/
 }
 
 nav ul a {
