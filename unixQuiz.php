@@ -11,6 +11,28 @@
 <main>
     <form id="qform">
         <div class="mcquestion quizquest">
+            <label>What year was UNIX released?</label>
+            <br />
+
+            <input type="radio" value="A" name="1">
+            <label>A. 1960</label>
+            <br />
+
+            <input type="radio" value="B" name="1">
+            <label>B. 1971</label>
+            <br />
+
+            <input type="radio" value="C" name="1">
+            <label>C. 2000</label>
+            <br />
+
+            <input type="radio" value="D" name="1">
+            <label>D. 1984</label>
+            <br />
+        </div>
+        <p class="quizans">B</p>
+      
+      <div class="mcquestion quizquest">
             <label>This is a Multiple Choice Question.</label>
             <br />
 
@@ -30,7 +52,7 @@
             <label>D. This is Answer D.</label>
             <br />
         </div>
-        <p class="quizans">A</p>
+        <p class="quizans">C</p>
 
         <label>This is a Fill in the Blank Question: </label>
         <input class="ftbquestion quizquest" type="text">
