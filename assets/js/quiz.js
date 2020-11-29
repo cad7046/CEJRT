@@ -27,7 +27,7 @@ caller.addEventListener('submit', function(event) {
 				}
 			}
 		} else {
-			if (questions[i].value == answers[i].innerHTML) {
+			if (questions[i].value.toLowerCase() == answers[i].innerHTML) {
 				questions[i].style.color = CORRCOLOR;
 				questions[i].style.fontWeight = 'BOLD';
 			} else {
