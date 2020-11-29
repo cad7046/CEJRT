@@ -10,11 +10,11 @@
 <main>
     <h1>Quizzes</h1>
     <ol>
-        <li><a href="#">PLACEHOLDER</a></li>
-        <li><a href="#">PLACEHOLDER</a></li>
-        <li><a href="#">PLACEHOLDER</a></li>
-        <li><a href="#">PLACEHOLDER</a></li>
-        <li><a href="#">PLACEHOLDER</a></li>
+        <li><a href="unixQuiz.php">All about Unix Quiz</a></li>
+        <li><a href="navQuiz.php">Navigation Quiz</a></li>
+        <li><a href="filesysQuiz.php">File Systems Quiz</a></li>
+        <li><a href="permQuiz.php">Permissions Quiz</a></li>
+        <li><a href="rmtQuiz.php">Remote Tools Quiz</a></li>
     </ol>
 </main>
 
