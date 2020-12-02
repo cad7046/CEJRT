@@ -21,7 +21,7 @@
         </li>
         <li class="nondrop dropOuter" id="quizzes" onclick="toggleDrop(this);">Quizzes
             <ul class="dropdown">
-                <li class="ddli"><a href="PLACEHOLDER">PLACEHOLDER</a></li>
+                <li class="ddli"><a href="navQuiz.php">Navigation</a></li>
                 <li class="ddli"><a href="PLACEHOLDER">PLACEHOLDER</a></li>
                 <li class="ddli"><a href="PLACEHOLDER">PLACEHOLDER</a></li>
                 <li class="ddli"><a href="PLACEHOLDER">PLACEHOLDER</a></li>

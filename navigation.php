@@ -23,7 +23,7 @@
         <br> ‘rmdir’ = remove empty directories
         <br> ‘cp’ = copy
         <br> ‘mv’ = move
-        <br> ‘touch’ = update the access or modification date of a file/directory
+        <br> ‘touch’ = update the access or modification date of a file/directory or create an empty file if the file doesn't exist
     </p>
 
 
