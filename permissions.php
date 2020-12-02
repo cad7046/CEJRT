@@ -20,18 +20,30 @@
 <br> 6 Read and write permission: 4 (read) + 2 (write) = 6    rw-
 <br> 7 All permissions: 4 (read) + 2 (write) + 1 (execute) = 7    rwx</p>
     
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
+    <h1>Permissions Tutorials</h1>
+    <p>'chmod' changes the permissions for a directory or file.  The following commands will
+        change the permissions for the owner, group, and user.</p>
+    <h2>chmod 777 file</h2>
+    <p>No restrictions on any permissions for anyone (rwxrwxrwx)</p>
+    <h2>chmod 755 file</h2>
+    <p>The owner of the file may read, write, and execute the file.  The group and user may read and execute
+        the file (rwxr-xr-x)</p>
+    <h2>chmod 700 file</h2>
+    <p>The owner of the file may read, write, and execute the file.  Only the owner has permissions to do anything.
+        (rwx------)</p>
+    <h2>chmod 666 file</h2>
+    <p>Owner, group, and user are able to only read and write the file. (rw-rw-rw-)</p>
+    <h2>chmod 644 file</h2>
+    <p>The owner may read and write a file, whereas the others can only read (rw-r--r--)</p>
+    <h2>chmod 600 file</h2>
+    <p>The owner may read and write a file while the others are unable to do anything at all (rw-------)</p>
+    <br>
+    <h2>chmod 777 directory</h2>
+    <p>There are no restrictions for any groups.  Anyone can list files and create and delete files.</p>
+    <h2>chmod 755 directory</h2>
+    <p>The directory owner has full access while the other groups can list the directory but not create or delete files.</p>
+    <h2>chmod 700 directory</h2>
+    <p>The directory owner has full access while no one else has any permissions.</p>
 </main>
 
 <?php
