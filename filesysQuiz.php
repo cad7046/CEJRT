@@ -11,31 +11,48 @@
 <main>
     <form id="qform">
         <div class="mcquestion quizquest">
-            <label>This is a Multiple Choice Question.</label>
+            <label>Which command will copy a file: </label>
             <br />
 
             <input type="radio" value="A" name="1">
-            <label>A. This is Answer A.</label>
+            <label>A. cp</label>
             <br />
 
             <input type="radio" value="B" name="1">
-            <label>B. This is Answer B.</label>
+            <label>B. mv</label>
             <br />
 
             <input type="radio" value="C" name="1">
-            <label>C. This is Answer C.</label>
+            <label>C. rm</label>
             <br />
 
             <input type="radio" value="D" name="1">
-            <label>D. This is Answer D.</label>
+            <label>D. ls</label>
             <br />
         </div>
         <p class="quizans">A</p>
 
-        <label>This is a Fill in the Blank Question: </label>
-        <input class="ftbquestion quizquest" type="text">
-        <p class="quizans">testans</p>
-        <br />
+        <div class="mcquestion quizquest">
+            <label>Which command will move/rename a file: </label>
+            <br />
+
+            <input type="radio" value="A" name="2">
+            <label>A. cp</label>
+            <br />
+
+            <input type="radio" value="B" name="2">
+            <label>B. mv</label>
+            <br />
+
+            <input type="radio" value="C" name="2">
+            <label>C. rm</label>
+            <br />
+
+            <input type="radio" value="D" name="2">
+            <label>D. ls</label>
+            <br />
+        </div>
+        <p class="quizans">B</p>
 
         <input type="submit" value="Check Answers">
     </form>
