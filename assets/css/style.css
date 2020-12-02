@@ -51,6 +51,8 @@ body {
     padding-bottom: 3px;
     padding-left: 3px;
     padding-right: 8px;
+    width: 100%;
+    display: block;
 }
 
 .ddli:hover a {

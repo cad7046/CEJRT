@@ -10,15 +10,6 @@
         <li class="nondrop"><a href="filesystem.php">File System</a></li>
         <li class="nondrop"><a href="permissions.php">Permissions</a></li>
         <li class="nondrop"><a href="remotetools.php">Remote Tools</a></li>
-        <li class="nondrop dropOuter" id="tutorials" onclick="toggleDrop(this);">Tutorials
-            <ul class="dropdown">
-                <li class="ddli"><a href="PLACEHOLDER">PLACEHOLDER</a></li>
-                <li class="ddli"><a href="PLACEHOLDER">PLACEHOLDER</a></li>
-                <li class="ddli"><a href="PLACEHOLDER">PLACEHOLDER</a></li>
-                <li class="ddli"><a href="PLACEHOLDER">PLACEHOLDER</a></li>
-                <li class="ddli"><a href="PLACEHOLDER">PLACEHOLDER</a></li>
-            </ul>
-        </li>
         <li class="nondrop dropOuter" id="quizzes" onclick="toggleDrop(this);">Quizzes
             <ul class="dropdown">
                 <li class="ddli"><a href="navQuiz.php">Navigation</a></li>
