@@ -8,19 +8,15 @@
 ?>
 
 <main>
-    <h1>CONTENT WILL GO HERE</h1>
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
+    <h1>Welcome to CEJRT's All About UNIX</h1>
+
+    <p>In this site we have attempted to explain some of the fundamentals of UNIX with some added topics
+    relating to web site management.  Feel free to read through the topics ranging from navigating a file
+    structure to file & directory permissions and remote connectivity to a web site.  Each topic has a corresponding
+    tutorial and quiz.  The quiz will inform the user whether their answers are correct or not.</p><br>
+
+    <h2>Enjoy!</h2>
+
 </main>
 
 <?php
