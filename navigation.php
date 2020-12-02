@@ -37,7 +37,7 @@
     <h2>pwd</h2>
     <p>Now, use the command ls to see directories you can navigate to. </p>
     <h2>ls</h2>
-    <img src="nav_tutorial.jpg" alt="Nav Tutorial" width="500" height="600">
+    <img src="assets/images/nav_tutorial.JPG" alt="Nav Tutorial" width="600" height="330">
     <p>You should see something like this. </p>
     <p>Now, choose a directory from the list you find, and navigate to it using the command </p>
     <h2>cd [filename]</h2>
