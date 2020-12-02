@@ -5,7 +5,6 @@
         <title>All About UNIX</title>
         
         <link rel="stylesheet" href="assets/css/style.css">
-        <script src="assets/js/navigationTools.js"></script>
     </head>
     
     <body>

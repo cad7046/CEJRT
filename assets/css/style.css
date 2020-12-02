@@ -94,12 +94,12 @@ nav ul {
     padding-right: 2.7vw;
 }
 
-.nondrop:hover > a {
-    background-color: #333652;
+.nondrop > a {
+    display: block;
 }
 
-.dropOuter:hover .dropdown {
-    display: block;
+.nondrop:hover > a, .dropOuter:hover {
+    background-color: #333652;
 }
 
 /*
@@ -108,7 +108,8 @@ nav ul {
 .dropOuter {
     color: #d00817;
 	font-size: 1.2vw;
-	font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
     
     /* Resolve issue with unwanted whitespace 
 	padding-bottom: 2px;*/
@@ -154,4 +155,75 @@ footer p {
 	width: 100%;
 	padding-top: 5px;
 	padding-bottom: 5px;
+}
+
+#hamburgerDiv {
+    display: none;
+    width: 100%;
+    background-color: #333652;
+    margin-top: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#hamburger {
+    margin-left: 10px;
+}
+
+@media screen and (min-width: 1201px) {
+    .dropOuter:hover .dropdown {
+        display: block;
+    }
+
+    .dropOuter {
+        padding-left: 2.7vw;
+        padding-right: 2.7vw;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    nav > ul {
+        flex-direction: column;
+    }
+
+    #hamburgerDiv {
+        display: block;
+    }
+
+    #outer {
+        display: none;
+    }
+
+    #first {
+        border: none;
+    }
+
+    nav > ul > li:not(#first) {
+        border: none;
+        border-top: 5px solid #333652;
+    }
+
+    nav > ul, nav > ul > li, .nondrop > a {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    nav > ul > li, nav > ul > li > a {
+        display: block;
+        width: 100%;
+    }
+
+    .dropdown {
+        position: static;
+        margin: 0px;
+        padding: 0px;
+        flex-direction: column;
+    }
+
+    .dropdown > li, .dropdown > li > a {
+        margin: 0px;
+        padding: 0px;
+        display: block;
+        width: 100%;
+    }
 }
