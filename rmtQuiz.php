@@ -11,30 +11,30 @@
 <main>
     <form id="qform">
         <div class="mcquestion quizquest">
-            <label>This is a Multiple Choice Question.</label>
+            <label>Which of these is an FTP program: </label>
             <br />
 
             <input type="radio" value="A" name="1">
-            <label>A. This is Answer A.</label>
+            <label>A. Filezilla</label>
             <br />
 
             <input type="radio" value="B" name="1">
-            <label>B. This is Answer B.</label>
+            <label>B. HTTP</label>
             <br />
 
             <input type="radio" value="C" name="1">
-            <label>C. This is Answer C.</label>
+            <label>C. Github</label>
             <br />
 
             <input type="radio" value="D" name="1">
-            <label>D. This is Answer D.</label>
+            <label>D. Samba</label>
             <br />
         </div>
         <p class="quizans">A</p>
 
-        <label>This is a Fill in the Blank Question: </label>
+        <label>What command allows you to connect remotely to a shell? </label>
         <input class="ftbquestion quizquest" type="text">
-        <p class="quizans">testans</p>
+        <p class="quizans">ssh</p>
         <br />
 
         <input type="submit" value="Check Answers">

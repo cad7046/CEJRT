@@ -33,31 +33,26 @@
         <p class="quizans">B</p>
       
       <div class="mcquestion quizquest">
-            <label>This is a Multiple Choice Question.</label>
+            <label>Who did the people who created UNIX work for: </label>
             <br />
 
             <input type="radio" value="A" name="2">
-            <label>A. This is Answer A.</label>
+            <label>A. AT&T</label>
             <br />
 
             <input type="radio" value="B" name="2">
-            <label>B. This is Answer B.</label>
+            <label>B. HP</label>
             <br />
 
             <input type="radio" value="C" name="2">
-            <label>C. This is Answer C.</label>
+            <label>C. Dell</label>
             <br />
 
             <input type="radio" value="D" name="2">
-            <label>D. This is Answer D.</label>
+            <label>D. Bell Labs</label>
             <br />
         </div>
-        <p class="quizans">C</p>
-
-        <label>This is a Fill in the Blank Question: </label>
-        <input class="ftbquestion quizquest" type="text">
-        <p class="quizans">testans</p>
-        <br />
+        <p class="quizans">D</p>
 
         <input type="submit" value="Check Answers">
     </form>
